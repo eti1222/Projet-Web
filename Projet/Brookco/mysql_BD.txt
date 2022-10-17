@@ -1,0 +1,24 @@
+table[livres,jeux,films]
+
+livres:
+item
+   id
+   titre
+   prix
+   description
+
+Jeux
+item:
+   id
+   titre
+   prix
+   description
+
+films
+
+   item:
+   id
+   titre
+   prix
+   description
+

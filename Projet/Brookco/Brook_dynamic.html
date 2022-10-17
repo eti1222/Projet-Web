@@ -1,0 +1,402 @@
+<html>
+
+<head>
+
+
+<title> Brook et Co </title>
+
+           <link rel="stylesheet" href="style1.css">
+	       <script type= "text/javascript" src="javascript.js"> </script>
+		  
+		   
+		  <link rel="stylesheet" type="text/css" href="css_labo.css"/>
+	      
+		   <script type= "text/javascript" src="javajs.js"> </script>
+		    <script type= "text/javascript" src="javaj.js"> </script>
+		   
+		  <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+       <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" 
+	  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	 <link  rel="stylesheet" href="css/main.css">
+     <script defer 
+	    src="https://use.fontawesome.com/releases/v5.0.9/js/all.js"
+		
+		crossorigin="anonymous"></script>
+	
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  
+	  <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<img class="fit="fit-picture" src="logo.png">  
+</head>
+
+
+<body onload="chargerZoneItem();">
+
+
+
+
+<div id="login-page"> 
+
+     <div class="form">   
+	        <form class="connection-form">
+	           <input type="text" placeholder="Nom"/>
+			   <input type="password" placeholder = "password"/>
+			
+		
+			    
+			        <p class="message">Si vous n ete pas enregistre <a href="#">S'inscrire</a></p>
+			
+			
+			  
+						 <p class="message">
+                 
+                       <input type="button" value="Connection" onclick ="javascript:afficher2();" />
+
+                         </p>
+						 
+						 
+			 		
+	                       </form>
+			
+		   <form class="register-form">
+	  
+	           <input type="text" placeholder="nom"/>
+	             <input type="text" placeholder="password"/>
+	              <input type ="text" placeholder="courriel"/>
+		  
+	                <button>Enregistrer</button>
+		  
+		           <p 
+		               class="message">Si vous ete deja enregistre <a href="#">Connection</a>
+		                  </p>
+						  
+						 
+	  
+	                        </form>
+	  	    
+	                    </div>  
+                              </div>
+
+
+<div id="zoneinscription">
+    <div class="form">
+	
+	  <form class="register-form">
+	  
+	      <input type="text" placeholder="nom"/>
+	      <input type="text" placeholder="password"/>
+	      <input type ="text" placeholder="courriel"/>
+		  
+	      <button>Enregistrer</button>
+		   
+    
+		   <p 
+		     class="message">Si vous ete deja enregistre <a href="#">Connection</a>
+		   </p>
+	  
+	           </form>
+	  
+                    </div>  
+	  
+                          </div>	
+
+
+<div id="zoneAffichageins">
+         
+
+
+   
+    <div id="panier"  onclick="javascript:afficherFacture();"> Afficher Facture </div>
+		  Nbre Item : <span id ="idItem">0</span>
+	  
+	   <ul class="right hide-on-med-and-down">
+	  
+		 <li><a href="#section2">Livre</a></li>
+		 <li><a href="#section3">Films</a></li>
+		 <li><a href="#section4">Jeux</a></li>
+		 <li><a href="#section5">Contact</a></li>
+		 <li><a href="#slider">Photos</a></li>
+       </ul>
+	   
+<div class="content">
+	   
+	      <Section class="slider">
+	   
+	   
+	   <ul class="slides">
+      <li>
+        <img src="rescue1.jpg"> <!-- random image -->
+        <div class="caption center-align">
+
+          <h2>Vous trouvez tous ce que vous chercher</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">Pour trouvez les livres, jeux et films  que vous aimer </br>
+		  n'hesite pas a utiliser notre equipe de travail qui son la pour vous aider.
+		  </h5>
+        </div>
+      </li>
+      <li>
+        <img src="vesper1.jpg"> <!-- random image -->
+        <div class="caption left-align">
+          <h2>On travail avec tous les budgets</h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only">on est la pour vous aidez et a grandir vos connaissances,notre
+		  magazin a des bons livre et jeux passinonant qui rend votre vie dynamic et plein de vivasitè</h5>
+        </div>
+      </li>
+      <li>
+        <img src="Avatard.jpg"> <!-- random image -->
+        <div class="caption right-align">
+          <h2>On a un bon groupe qui repond <br>a tous vos questions</br></h2>
+          <h5 class="light grey-text text-lighten-3 hide-on-small-only"></h5>
+             </div>
+          </li>
+      
+         </ul>
+		  			  
+       </section>
+	   
+	  
+		 
+ <div class="container1">		   
+	   	   
+	     <section id="section2">
+		 <h3> Livres</h3>
+		     <div id="zoneContenuItem1">
+		  
+			
+			
+		</div>
+		                                                	
+		 
+		 </section>
+		 
+		 <section id="section3">
+		    <div id="zoneContenuItem1">
+		         <h3>Films</h3>
+			
+		
+		   
+		     </div>
+		        </section>
+		 
+		 
+                             
+		 
+ <section id="section4">
+		  
+		  
+		   <div id="zoneContenuItem1">
+		          <h3>Jeux</h3>		
+			
+		  
+
+			
+
+		       
+		     </div>
+					 </section>
+ </div>
+                        
+		
+		 <section id="section5">
+		  <div id="zoneContenucontact">
+		    <h2>Contact</h2>
+			
+			<form name="formulaire">
+		
+		  <p>
+		     <label for="idNom">Nom</label>
+			 <input id="idNom" type="text" name="txtNom"/>
+			</p> 
+			
+			<p>
+			 <label for="idPrenom">Prenom</label>
+			 <input id="idPrenom" type="text" name="txtPrenom"/>
+			 </p>			  
+			  	
+			  <fieldset>
+			  </p>
+			    <legend>Adresse</legend>
+				<p>
+				<label for="idApp">App</label>
+				<input id="idApp" type="text" name="txtApp" size="4"/>
+				<label for="idNumero">Numero</label>
+				<input id="idNumero" type="text" name="txtNumero" size="10"/>
+				<label for="idRue">Rue</label>
+				<input id="idRue" type="text" name="txtRue" size="15"/>
+				
+				</p>
+				<p>
+				   <label for="idVille">Ville</label>
+				   <input id="idVille" type="text" name="txtville"/>
+				   <label for="idProvince">Province</label>
+				   <select id="idProvince" name="cboProvince">
+				        <option value"0">Choisir une provinces</option>
+						<option value"1">Alberta</option>
+						<option value"2">Colombie Britannique</option>
+						<option value"3">Ile du Prince Eduard</option>
+						<option value"5">Manitoba</option>
+						<option value"6">Nouveau-Brunswick</option>
+						<option value"7">Nouvelle Ecosse</option>
+						<option value"8">Ontario</option>
+						<option value"9">Manitoba</option>
+						<option value"10">Saskatchawan</option>
+				</select>
+				<label for="idCodePostal">Code Postal</label>
+				<input for="idCodePostal" type="text" name="txtcodePostal" size="8"/>
+				</p>
+				
+			
+				
+				<input type="button" value="Enregistrer" onclick="javascript:valider();">
+				<input type="reset" value="Annuler">
+			  
+			 </form>
+			 
+	 <!--		 <div id="idZoneAffichage">
+			   Nom et penom : <span id="idAffichageNomPrenom" class="classAffichage">xxx</span> <br/>
+			   Address :<span id="idAffichageAdresse" class="classAffichage">xxx</span> <br/>
+			   Sexe : <span id="idAffichageSexe" class="classAffichage">xxx</span> <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+			   Etat Civil :<span id="idAffichageEtatCivil" class="classAffichage">xxx</span> <br/>
+			   Langues parlees: <span id="idAffichageLangueparlee" class="classAffichage">xxx</span> <br/>
+			   Votre commentaire: <span id="idAffichageCommentaire" class="classAffichage">xxx</span> <br/>
+			   Votre photo : <br/>
+			   <img id="idAffichagePhoto"/>
+			 </div>
+			 
+			-->
+			
+			</div>
+		 </section>
+		 
+		 
+		  
+		  
+    </div>
+	
+  <section id="section5">
+  
+		<div class="container">
+ 
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Shoping Carte</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">shopping carte</h4>
+        </div>
+        <div class="modal-body">
+          <p>listes des transactions</p>
+		  
+		  
+		  
+		   <div id="zoneContenuFacture">
+		  
+		      <table border="1" width="50" align="center"
+			       <thead>
+				        <th>Description</th>
+					    <th>Quantite</th>
+					    <th>Prix unitaire</th>
+				  </thead>
+				  <tbody 
+				  
+		                       id="corpsTableau">
+	
+	'
+	
+	</tbody>
+			  </table>
+			</div>
+        </div>
+		</section>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+		 
+		   <script 
+
+	src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	
+	<script>
+	
+	
+	
+	// Sidenav
+	//(sidenav ,{}  object as in attribut)
+	const sideNav = document.querySelector('.sidenav');
+	//materilize javascript libreary M.sidenav
+	M.Sidenav.init(sideNav,{} );
+	
+	//slider
+	const slider = document.querySelector('.slider');
+	M.Slider.init(slider, {
+	
+	   indicators:false,
+	   height:300,
+	   transition:503,
+	   interval:6000,
+	   });
+	   
+	   //Autocomplete
+	   const ac = document.querySelector('.autocomplete');
+	   M.Autocomplete.init(ac,{data:{
+	   "Aruba":null,
+	   "Cancun Mexico":null,
+	   "Hawaii":null,
+	   "Florida":null,
+	   "California":null,
+	   "Jamaica":null,
+	   "Europe":null,
+	   
+	}
+	});
+	
+	// Material Boxed
+	const nb = document.querySelectorAll('.materialboxed');
+	M.Materialbox.init(nb, {});
+	
+	//ScrollSpy
+	const ss =document.querySelectorAll('.scrollspy');
+	M.ScrollSpy.init(ss, {});
+	</script>
+						   
+    <script src='https://code.jquery.com/jquery-3.6.1.min.js'>
+	</script>
+	
+	<script>
+	     $('.message a').click(function(){
+	     $('form').animate({height:"toggle", opacity: "toggle"}, "slow");
+	     });
+      </script>				   
+						
+		
+    </body>
+	
+</html>

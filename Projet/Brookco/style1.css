@@ -1,0 +1,110 @@
+
+body{
+	background-image: ;
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-image:no-repeat;
+}
+
+#login-page{
+	width:360px;
+	padding:10% 0 0;
+	margin:auto;
+}
+.form{
+	position:relative;
+	z-index: 1;
+	background:rgba(7,40,195,0.8);
+	max-width:360px;
+	margin:0 auto 100px;
+	padding:45px;
+	text-align:center;
+}
+.form input{
+	font-family:"Roboto",sans-serif;
+	outline: 1;
+	background:#f2f2f2;
+	width:100%;
+	border:0;
+	margin:0 0 15px;
+	padding:15px;
+	box-sizing:border-box;
+	font-size:14px;
+}
+.form button{
+	font-family:"Roboto",sans-serif;
+	text-transform: uppercase;
+	outline:0;
+	outline: 0;
+	background:#4CAF50;  
+    width: 100%;
+    border:0;
+    padding:15px;	
+	color:#FFFFFF;
+	font-size:14px;
+	cursor:pointer;
+	
+}	
+
+.navbar ul li{
+  list-style-type: none;
+  margin: 50px;
+  padding: 20px;
+  display: inline;
+  width:100%;
+  background-color:rgba(0,0,0,0.6);
+}
+
+
+.form button:hover,.form button:active{
+	background: #43A047;
+}
+.form .message{
+	margin:15px 0 0;
+	color:#43A047;
+	font-size: 20px;
+}
+
+.form.message a{
+	color: #4CAF50;
+	text-decoration: none;
+}
+
+#zoneinscription{
+	display:none;
+}
+#login-page{
+	display:block;
+}
+.form .register-form{
+	display:none;
+}
+#zoneAffichageins{
+	display:none;
+}
+.sidenav-trigger{
+	width:100%;
+    color : red;
+	float:left;
+}
+.container{
+	padding:100px;
+	float:right;
+}
+
+.item{
+	font-size:16px;
+	font-family:arial;
+	text-align:center;
+	color:white;
+	width:14px;
+	margin-left: 4%;
+	padding-top: 30px;
+	display:inline-block;
+ }
+ 
+
+
+
+	
